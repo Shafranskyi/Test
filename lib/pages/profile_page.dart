@@ -36,6 +36,14 @@ class _ProfilePagePageState extends State<ProfilePage> {
     final GlobalKey<ScaffoldState> _scaffoldKey =
     new GlobalKey<ScaffoldState>();
 
-    return new Scaffold();
+    return new Scaffold(
+      appBar: AppBar(
+        title: Text('Profile'),
+        leading: IconButton(
+          icon: Icon(Icons.menu),
+          onPressed: () => _scaffoldKey.currentState.openDrawer(),
+        ),
+      ),
+    );
   }
 }

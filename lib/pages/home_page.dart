@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:test_project/pages/google_maps_page.dart';
-import 'package:test_project/pages/profile_page.dart';
-import 'package:test_project/pages/task_page.dart';
 import 'package:test_project/services/authentication.dart';
 import 'package:firebase_database/firebase_database.dart';
 
@@ -107,33 +104,6 @@ class _HomePageState extends State<HomePage> {
           leading: IconButton(
                 icon: Icon(Icons.menu),
                 onPressed: () => _scaffoldKey.currentState.openDrawer(),
-          ),
-        ),
-        drawer: Drawer(
-          child: ListView(
-            children: <Widget>[
-              ListTile(
-                title: Text('Tasks'),
-                onTap: (){
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => TaskPage()));
-                },
-              ),
-              ListTile(
-                title: Text('Google Maps'),
-                onTap: (){
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => GoogleMapsPage()));
-                },
-              ),
-              ListTile(
-                title: Text('Profile'),
-                onTap: (){
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => ProfilePage()));
-                },
-              ),
-            ],
           ),
         ),
     );

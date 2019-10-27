@@ -36,6 +36,14 @@ class _GoogleMapsPageState extends State<GoogleMapsPage> {
     final GlobalKey<ScaffoldState> _scaffoldKey =
     new GlobalKey<ScaffoldState>();
 
-    return new Scaffold();
+    return new Scaffold(
+      appBar: AppBar(
+        title: Text('Map'),
+        leading: IconButton(
+          icon: Icon(Icons.menu),
+          onPressed: () => _scaffoldKey.currentState.openDrawer(),
+        ),
+      ),
+    );
   }
 }

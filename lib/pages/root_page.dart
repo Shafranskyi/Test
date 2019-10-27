@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:test_project/pages/login_signup_page.dart';
 import 'package:test_project/services/authentication.dart';
 import 'package:test_project/pages/home_page.dart';
+import 'package:test_project/services/navigation.dart';
 
 enum AuthStatus {
   NOT_DETERMINED,
@@ -77,10 +79,13 @@ class _RootPageState extends State<RootPage> {
         break;
       case AuthStatus.LOGGED_IN:
         if (_userId.length > 0 && _userId != null) {
-          return new HomePage(
-            userId: _userId,
-            auth: widget.auth,
-            logoutCallback: logoutCallback,
+          return new ChangeNotifierProvider<BottomNavigationBarProvider>(
+            child: BottomNavigationBarExample(
+              userId: _userId,
+              auth: widget.auth,
+              logoutCallback: logoutCallback,
+            ),
+            builder: (BuildContext context) => BottomNavigationBarProvider(),
           );
         } else
           return buildWaitingScreen();
