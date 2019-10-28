@@ -17,13 +17,9 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePagePageState extends State<ProfilePage> {
   final FirebaseDatabase _database = FirebaseDatabase.instance;
 
-  //bool _isEmailVerified = false;
-
   @override
   void initState() {
     super.initState();
-
-    //_checkEmailVerification();
   }
 
   @override
