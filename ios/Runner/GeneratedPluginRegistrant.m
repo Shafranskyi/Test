@@ -10,6 +10,7 @@
 #import <google_api_availability/GoogleApiAvailabilityPlugin.h>
 #import <google_maps_flutter/GoogleMapsPlugin.h>
 #import <location_permissions/LocationPermissionsPlugin.h>
+#import <shared_preferences/SharedPreferencesPlugin.h>
 
 @implementation GeneratedPluginRegistrant
 
@@ -21,6 +22,7 @@
   [GoogleApiAvailabilityPlugin registerWithRegistrar:[registry registrarForPlugin:@"GoogleApiAvailabilityPlugin"]];
   [FLTGoogleMapsPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTGoogleMapsPlugin"]];
   [LocationPermissionsPlugin registerWithRegistrar:[registry registrarForPlugin:@"LocationPermissionsPlugin"]];
+  [FLTSharedPreferencesPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharedPreferencesPlugin"]];
 }
 
 @end
