@@ -14,7 +14,7 @@ class _AboutPageState extends State<AboutPage> {
         backgroundColor: Colors.deepOrangeAccent,
       ),
       body: new Center(
-        child:
+        child: new Text("About us", style: new TextStyle(fontSize: 35.0)),
       ),
     );
   }
