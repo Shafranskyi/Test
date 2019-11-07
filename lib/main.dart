@@ -3,8 +3,7 @@ import 'package:test_project/first/services/authentication.dart';
 import 'package:test_project/first/pages/root_page.dart';
 
 //import 'package:test_project/redux/MyApp.dart';
-//import 'package:test_project/Api.dart';
-import 'package:test_project/Notification.dart';
+import 'package:test_project/Api/Api.dart';
 
 void main() {
   runApp(new MyApp());
