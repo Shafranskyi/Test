@@ -32,6 +32,7 @@ class WelcomeContentWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Column(
+
         mainAxisSize: MainAxisSize.max,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
