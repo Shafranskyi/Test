@@ -1,0 +1,1 @@
+net.hush2.android_device_info
