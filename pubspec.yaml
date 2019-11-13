@@ -64,7 +64,14 @@ flutter:
 
 
   assets:
-    - images/flutter-icon.png
+    - images/home.png
+    - images/boating.jpg
+    - images/cycling.png
+    - images/graphic_designer.jpg
+    - images/monica.png
+    - images/skiing.jpeg
+    - images/swimming.jpg
+  #  - images/flutter-icon.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
