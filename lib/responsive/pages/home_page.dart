@@ -26,8 +26,7 @@ class HomeScreen extends StatelessWidget {
                       bottom: Radius.circular(3.0 * SizeConfig.heightMultiplier),
                     ),
                   ),
-                  constraints:
-                  BoxConstraints(maxHeight: 40 * (SizeConfig.isMobilePortrait ? SizeConfig.heightMultiplier : SizeConfig.widthMultiplier)),
+                  constraints: BoxConstraints(maxHeight: 40 * (SizeConfig.isMobilePortrait ? SizeConfig.heightMultiplier : SizeConfig.widthMultiplier)),
                   child: Stack(
                     fit: StackFit.expand,
                     children: <Widget>[

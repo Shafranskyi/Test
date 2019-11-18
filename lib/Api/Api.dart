@@ -7,7 +7,7 @@ import 'package:redux_thunk/redux_thunk.dart';
 import 'dart:convert'; // to convert Response object to Map object
 import 'package:http/http.dart' as http;
 
-enum Cities { Kiev, Madrid, Wroclaw, Rome, Amsterdam}
+enum Cities { Gjh, Kiev, Madrid, Wroclaw, Rome, Amsterdam}
 
 // AppState
 class AppState {
@@ -19,9 +19,6 @@ class AppState {
 
   AppState(this._degrees, this._city);
 }
-
-// Sync Action
-enum Action { IncrementAction }
 
 class UpdateQuoteAction {
   String _city;
@@ -52,10 +49,10 @@ ThunkAction<AppState> getRandomQuote = (Store<AppState> store) async {
     temp = ((double.tryParse(data['main']['temp'].toString()) - 273.15).toStringAsFixed(1)).toString();
     name = data['name'];
   }
-  else{
-    name = 'error';
-    temp = 'error';
-  }
+  //else{
+  //  name = 'error';
+  //  temp = 'error';
+  //}
 
   store.dispatch(new UpdateQuoteAction(temp, name));
 };
@@ -120,6 +117,15 @@ class _MyHomePageState extends State<MyHomePage> {
             StoreConnector<AppState, AppState>(
               converter: (store) => store.state,
               builder: (_, state) {
+                //if(state._city == null && state._degrees == null){
+                //  return Center(
+                //    child: Theme(
+                //      data: Theme.of(context).copyWith(accentColor: Colors.blue),
+                //      child: CircularProgressIndicator(),
+                //    ),
+                //  );
+                //}
+
                 return new Text(
                   ' ${state._degrees} °C  -  ${state._city}',
                   textAlign: TextAlign.center,
@@ -145,5 +151,4 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-typedef void IncrementCounter(); // This is sync.
 typedef void GenerateQuote(); // This is async.

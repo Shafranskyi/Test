@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\shafr\\AndroidStudioProjects\\test\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
+            "outputFile": "C:\\Users\\User\\AndroidStudioProjects\\test\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shafr\\.gradle\\caches\\transforms-2\\files-2.1\\f84fcd43f444e59a9246696db7177885\\res\\values-pt-rPT\\values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "21",
-                        "startColumns": "4",
-                        "startOffsets": "3035",
-                        "endColumns": "100",
-                        "endOffsets": "3131"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\shafr\\.gradle\\caches\\transforms-2\\files-2.1\\6f4fa8d28f3d908897738fbde488f35d\\res\\values-pt-rPT\\values.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\0530c54f8a656233529bcddaa51d8929\\res\\values-pt-rPT\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shafr\\.gradle\\caches\\transforms-2\\files-2.1\\89846807cb3093b4c20bbcc541181b26\\res\\values-pt-rPT\\values.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\e94ba89c02bc8598cde8256c3ae00a98\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "3035",
+                        "endColumns": "100",
+                        "endOffsets": "3131"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\cc79a6a27c675aace885442ebc9eaa5e\\res\\values-pt-rPT\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\shafr\\.gradle\\caches\\transforms-2\\files-2.1\\478cefaf7b4161fb5cd00bbd4ad13dba\\res\\values-pt-rPT\\values.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\0017e30399abde321a14d30cab3bd221\\res\\values-pt-rPT\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
