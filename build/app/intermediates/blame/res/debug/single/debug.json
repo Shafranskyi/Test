@@ -12,6 +12,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\0017e30399abde321a14d30cab3bd221\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\test\\build\\app\\intermediates\\res\\merged\\debug\\raw_slow_spring_board.mp3.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\test\\android\\app\\src\\main\\res\\raw\\slow_spring_board.mp3"
+    },
+    {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\test\\build\\app\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\e94ba89c02bc8598cde8256c3ae00a98\\res\\drawable-v21\\notification_action_background.xml"
     },
@@ -114,6 +118,10 @@
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\test\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\e94ba89c02bc8598cde8256c3ae00a98\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\test\\build\\app\\intermediates\\res\\merged\\debug\\drawable_app_icon.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\test\\android\\app\\src\\main\\res\\drawable\\app_icon.png"
     },
     {
         "merged": "C:\\Users\\User\\AndroidStudioProjects\\test\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
